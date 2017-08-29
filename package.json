@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build": "tsc -p src",
+        "test-types": "dtslint types-tests"
+    },
+    "devDependencies": {
+        "dtslint": "github:Microsoft/dtslint#production",
+        "typescript": "^2.6.0-dev.20170829"
+    }
+}
